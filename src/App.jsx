@@ -12,6 +12,8 @@ import Landing from './Pages/Landing'
 
 import Nav from "./Components/Nav"
 
+import Profile from './Pages/Profile'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,8 +21,8 @@ function App() {
     <>
       <div>
          <Nav />
-        <Landing />
-
+        {/* <Landing /> */}
+      <Profile />
       </div>
     </>
   )
