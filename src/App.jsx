@@ -21,8 +21,8 @@ function App() {
     <>
       <div>
          <Nav />
-        {/* <Landing /> */}
-      <Profile />
+        <Landing />
+      {/* <Profile /> */}
       </div>
     </>
   )

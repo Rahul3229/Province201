@@ -45,10 +45,50 @@
 }
 
 
-.Circluar
+
+
+
+.Active
 {
-  
+transition:2s;
+clip-path: circle(135.1% at 95% 5%);
 }
+
+.Inactive
+{
+  transition: 1s;
+  clip-path: circle(0% at 100% 0%);
+}
+
+.NavBarsActive
+{
+ 
+  transition:1s;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.NavBarsInActive
+{
+
+  transition:1s;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.NavBoxActive
+{
+background-color: white;
+transition: 1s;
+}
+
+.NavBoxInActive
+{
+background-color: black;
+transition: 1s;
+}
+
+
 
 text
 {
